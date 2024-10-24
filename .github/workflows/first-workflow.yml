@@ -1,6 +1,6 @@
 name: My First Workflow
 
-on: [push,fork,commit]
+on: [push,fork]
 
 jobs:
     first_job:
@@ -13,4 +13,3 @@ jobs:
 
             -name: read file
             run: cat ReadME.md
-            
